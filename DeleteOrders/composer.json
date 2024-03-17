@@ -1,0 +1,26 @@
+{
+  "name": "inventionstar/module-delete-orders",
+  "description": "Magento 2 Delete Orders extension",
+  "require": {
+    "inventionstar/module-core": "^1.4.5"
+  },
+  "type": "magento2-module",
+  "version": "1.2.1",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Inventionstar",
+      "email": "support@inventionstar.com",
+      "homepage": "https://www.inventionstar.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Inventionstar\\DeleteOrders\\": ""
+    }
+  }
+}
